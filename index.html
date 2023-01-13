@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Colmar Academy</title>
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid px-0">
+        <!--Mobile Nav-->
+        <div class="d-lg-none w-100">
+          <ul
+            class="navbar-nav flex-row align-items-center justify-content-between px-2"
+          >
+            <li class="nav-item">
+              <a href="#"><img src="./images/ic-logo.svg" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><img src="./images/ic-on-campus.svg" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><img src="./images/ic-online.svg" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><img src="./images/ic-login.svg" /></a>
+            </li>
+          </ul>
+        </div>
+        <!--Desktop Nav-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="./images/ic-logo.svg" />
+              <div class="brandname">
+                <strong class="text-dark">COLMAR</strong
+                ><span class="text-secondary">ACADEMY</span>
+              </div></a
+            >
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">On campus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">or campanies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <!--Top Banner-->
+      <div id="topbanner" class="d-flex text-dark pb-4 p-lg-0">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <img class="pb-4 ps-lg-4 py-lg-4 w-100" src="./images/banner.jpg" />
+          </div>
+          <div
+            id="topbannertext"
+            class="col-12 px-4 px-lg-0 ms-4 col-lg-4 d-flex flex-column align-self-center"
+          >
+            <h1 class="mb-4 fw-bold">Learn something new everyday</h1>
+            <h3 class="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
+            <a class="btn rounded-0 btn-dark me-5" href="#" role="button"
+              >Start here</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!--Second Row-->
+      <div class="row">
+        <div id="secondrowleft" class="d-none d-lg-block col-lg-7 border-end">
+          <img class="w-100" src="./images/information-main.jpg" />
+          <div class="px-4 py-3">
+            <h1 class="fw-bold">It doesn't hurt to keep practicing</h1>
+            <p>
+              "Curabitur vitae libero in ipusm porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula"
+            </p>
+            <p>Emanuel, Sr Strategist at Hiring.com</p>
+          </div>
+        </div>
+        <!--Three Boxes-->
+        <div class="col-lg-5">
+          <!--First Box-->
+          <div class="row py-4 border-bottom">
+            <div class="col-lg-5">
+              <img
+                class="d-none d-lg-block w-100"
+                src="./images/information-orientation.jpg"
+              />
+              <img
+                class="d-block d-lg-none px-4 w-100"
+                src="./images/information-orientation-mobile.jpg"
+              />
+            </div>
+            <div
+              class="col-lg-7 mt-4 mx-5 mt-lg-0 mx-lg-0 align-self-center pe-4"
+            >
+              <h3>Orientation date</h3>
+              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <a class="text-decoration-none" href="#">Read more</a>
+            </div>
+          </div>
+          <!--Second Box-->
+          <div class="row py-4 border-bottom">
+            <div class="col-lg-5">
+              <img
+                class="d-none d-lg-block w-100"
+                src="./images/information-campus.jpg"
+              />
+              <img
+                class="d-block d-lg-none px-4 w-100"
+                src="./images/information-campus-mobile.jpg"
+              />
+            </div>
+            <div
+              class="col-lg-7 mt-4 mx-5 mt-lg-0 mx-lg-0 align-self-center pe-4"
+            >
+              <h3>Our campus</h3>
+              <p>Find which campus is close by you</p>
+              <a class="text-decoration-none" href="#">Read more</a>
+            </div>
+          </div>
+          <!--Third Box-->
+
+          <div class="grey-bg row py-4 border-bottom">
+            <div class="col-lg-5">
+              <img
+                class="d-none d-lg-block w-100"
+                src="./images/information-guest-lecture.jpg"
+              />
+              <img
+                class="d-block d-lg-none px-4 w-100"
+                src="./images/information-guest-lecture-mobile.jpg"
+              />
+            </div>
+            <div
+              class="col-lg-7 mt-4 mx-5 mt-lg-0 mx-lg-0 align-self-center pe-4"
+            >
+              <h3>Our guest lecture</h3>
+              <p>
+                Join a keynote with Oliver Sack about music in medical treatment
+              </p>
+              <a class="text-decoration-none" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Third Row: Start Learning-->
+      <div id="thirdrow">
+        <h2 class="text-center fw-bold mb-4">Start learning</h2>
+        <!-- Row 1 -->
+        <div class="row">
+          <!--First card-->
+
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-software.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Software engineering</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span>Web Development, Mobile Development, iOT, APIs</span>
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+          <!--Second card-->
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-computer-art.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Computer art</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span
+                    >Imaging & Design, Web Design, Motion Graphics & Visual
+                    Effects, Computer Animation</span
+                  >
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+          <!--Third card-->
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-design.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Design</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span
+                    >User Experience Design, User Research, Visual Design</span
+                  >
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+          <!--First card-->
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-data.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Data</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span>Data Science, Big Data, SQL, Data Visualization</span>
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+          <!--Second card-->
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-business.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Business</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span
+                    >Product Development, Business Development, Startup</span
+                  >
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+          <!--Third card-->
+          <div class="cardbox col-12 col-lg-4 rounded-0">
+            <div class="card rounded-0 border-0">
+              <img
+                src="./images/course-marketing.jpg"
+                class="rounded-0 card-img-top d-none d-lg-block"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Marketing</h5>
+                <p class="card-text d-none d-lg-block">
+                  <span>COURSES</span><br />
+                  <span>Analytics, Content Marketing, Mobile Marketing</span>
+                </p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fourth Row: Thesis exhibit-->
+      <div id="fourthrow">
+        <h2 class="text-center fw-bold mb-4">Thesis exhibit</h2>
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <video class="w-100" controls>
+              <source src="./videos/thesis.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="px-3 px-lg-1 py-3">
+              <div class="d-none d-lg-block">
+                <h4 class="fw-bold">Reimagine urban</h4>
+                <p>
+                  "Curabitur vitae libero in ipusm porttitor consequat. Aliquam
+                  et commodo lectus, nec consequat neque. Sed non accumsan urna.
+                  Phasellus sed consequat ex. Etiam eget magna laoreet,
+                  efficitur dolor consequat, tristique ligula."
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Two Boxes-->
+          <div class="col-lg-5 d-none d-lg-block">
+            <!--First Box-->
+            <div class="grey-bg row py-4 position-relative">
+              <div class="col-lg-5">
+                <img class="w-100" src="./images/thesis-fisma.jpg" />
+              </div>
+              <div
+                class="col-lg-7 mt-4 mx-5 mt-lg-0 mx-lg-0 align-self-center pe-4"
+              >
+                <h3>Fisma: Design and Prototype</h3>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+            <!--Second Box-->
+            <div class="row py-4 position-relative">
+              <div class="col-lg-5">
+                <img class="w-100" src="./images/thesis-now-and-then.jpg" />
+              </div>
+              <div
+                class="col-lg-7 mt-4 mx-5 mt-lg-0 mx-lg-0 align-self-center pe-4"
+              >
+                <h3>Our campus</h3>
+                <p>Find which campus is close by you</p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="d-none d-lg-block">
+        <div class="border-bottom"></div>
+      </div>
+      <div
+        class="d-flex justify-content-between px-3 pt-1 pb-3 pt-lg-2 pb-lg-5"
+      >
+        <div>© 2016 Colmar Academy. All rights reserved</div>
+        <div>
+          <a class="text-decoration-none text-dark" href="#">Terms</a> |
+          <a class="text-decoration-none text-dark" href="#">Privacy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
